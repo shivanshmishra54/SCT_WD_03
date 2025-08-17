@@ -2,7 +2,7 @@
 
 This is a modern **Tic-Tac-Toe game** developed as part of my **Web Developer Internship at Skillcraft Technology**. The project is built with **HTML, CSS, and JavaScript**, focusing on clean UI, responsive design, accessibility, and game logic implementation.  
 
-🔗 **Live Demo:** [Click here to play](https://your-live-demo-link.com)  
+🔗 **Live Demo:** [Click here to play](https://shivanshmishra54.github.io/SCT_WD_03/)  
 
 ---
 
