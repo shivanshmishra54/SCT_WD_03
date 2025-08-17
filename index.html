@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    
+    <div class="game-container">
+        <h1>Tic-Tac-Toe</h1>
+        
+        <div class="controls">
+            <div class="game-mode">
+                <label for="mode">Game Mode:</label>
+                <select id="mode">
+                    <option value="pvp">Player vs Player</option>
+                    <option value="easy">Player vs Computer (Easy)</option>
+                    <option value="medium">Player vs Computer (Medium)</option>
+                    <option value="hard">Player vs Computer (Hard)</option>
+                </select>
+            </div>
+            
+            <div class="first-player">
+                <label for="first-player">First Move:</label>
+                <select id="first-player">
+                    <option value="X">X (Player)</option>
+                    <option value="O">O (Computer)</option>
+                </select>
+            </div>
+            
+            <div class="move-numbers">
+                <input type="checkbox" id="show-moves">
+                <label for="show-moves">Show Move Numbers</label>
+            </div>
+            
+            <button id="restart" aria-label="Restart game">Restart</button>
+        </div>
+        
+        <div id="status" aria-live="polite">X's turn</div>
+        
+        <div class="board" role="grid">
+            
+        </div>
+    </div>
+
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>
